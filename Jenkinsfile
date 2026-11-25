@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PATH = "/usr/local/go/bin:${env.PATH}"
-        IMAGE_NAME = "amitachari/frontend:${GIT_COMMIT}"
+        IMAGE_NAME = "amitachari/productcatalogservice:${GIT_COMMIT}"
     }
 
     stages {
